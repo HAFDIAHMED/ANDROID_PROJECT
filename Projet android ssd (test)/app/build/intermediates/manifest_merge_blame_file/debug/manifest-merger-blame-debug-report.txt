@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.examples.detection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:4:5-17
+8        android:minSdkVersion="21"
+8-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:4:5-17
+9        android:targetSdkVersion="21" />
+9-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:4:5-17
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:6:5-65
+11-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:6:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:8:5-60
+13-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:8:19-57
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:9:5-70
+14-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:9:19-67
+15
+16    <application
+16-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:11:5-29:19
+17        android:allowBackup="false"
+17-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:12:9-36
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.0] C:\Users\ELKACEM\.gradle\caches\transforms-2\files-2.1\75fa621bc1ffefa2e020c03b6853ef5e\core-1.0.0\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:13:9-43
+21        android:label="@string/tfe_od_app_name"
+21-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:14:9-48
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:15:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:16:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme.ObjectDetection" >
+25-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:17:9-56
+26        <activity
+26-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:19:9-27:20
+27            android:name="org.tensorflow.lite.examples.detection.DetectorActivity"
+27-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:20:13-45
+28            android:label="@string/tfe_od_app_name"
+28-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:21:13-52
+29            android:screenOrientation="portrait" >
+29-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:22:13-49
+30            <intent-filter>
+30-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:23:13-26:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:24:17-69
+31-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:24:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:25:17-77
+33-->C:\Users\ELKACEM\Desktop\examples-master\lite\examples\object_detection\android\app\src\main\AndroidManifest.xml:25:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>

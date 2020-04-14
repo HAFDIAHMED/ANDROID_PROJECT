@@ -1,0 +1,7 @@
+#Sun Apr 12 21:26:00 WET 2020
+base.0=C\:\\Users\\ELKACEM\\Desktop\\examples-master\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\ELKACEM\\Desktop\\examples-master\\lite\\examples\\object_detection\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
